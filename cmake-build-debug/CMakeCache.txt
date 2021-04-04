@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=untitled
+CMAKE_PROJECT_NAME:STATIC=untitled3
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=D:/SoftwareInstalled/mingw64/bin/ranlib.exe
@@ -246,6 +246,24 @@ CMAKE_STRIP:FILEPATH=D:/SoftwareInstalled/mingw64/bin/strip.exe
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+untitled1_BINARY_DIR:STATIC=D:/gitRepo/Leedcode/cmake-build-debug
+
+//Value Computed by CMake
+untitled1_SOURCE_DIR:STATIC=D:/gitRepo/Leedcode
+
+//Value Computed by CMake
+untitled2_BINARY_DIR:STATIC=D:/gitRepo/Leedcode/cmake-build-debug
+
+//Value Computed by CMake
+untitled2_SOURCE_DIR:STATIC=D:/gitRepo/Leedcode
+
+//Value Computed by CMake
+untitled3_BINARY_DIR:STATIC=D:/gitRepo/Leedcode/cmake-build-debug
+
+//Value Computed by CMake
+untitled3_SOURCE_DIR:STATIC=D:/gitRepo/Leedcode
 
 //Value Computed by CMake
 untitled_BINARY_DIR:STATIC=D:/gitRepo/Leedcode/cmake-build-debug

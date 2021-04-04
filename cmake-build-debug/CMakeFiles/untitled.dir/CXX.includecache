@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/gitRepo/Leedcode/BinaryTree.cpp
+BinaryTree.h
+D:/gitRepo/Leedcode/BinaryTree.h
+stack
+-
+algorithm
+-
+
+D:/gitRepo/Leedcode/BinaryTree.h
+vector
+-
+
+D:/gitRepo/Leedcode/UnionFind.cpp
+UnionFind.h
+D:/gitRepo/Leedcode/UnionFind.h
+
+D:/gitRepo/Leedcode/UnionFind.h
+
+D:/gitRepo/Leedcode/main.cpp
+iostream
+-
+

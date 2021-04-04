@@ -110,98 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named untitled3
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 untitled
-.PHONY : untitled
+untitled3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 untitled3
+.PHONY : untitled3
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+untitled3/fast:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/build
+.PHONY : untitled3/fast
 
-BinaryTree.obj: BinaryTree.cpp.obj
+RabbitNums/RabbitNums.obj: RabbitNums/RabbitNums.cpp.obj
 
-.PHONY : BinaryTree.obj
-
-# target to build an object file
-BinaryTree.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/BinaryTree.cpp.obj
-.PHONY : BinaryTree.cpp.obj
-
-BinaryTree.i: BinaryTree.cpp.i
-
-.PHONY : BinaryTree.i
-
-# target to preprocess a source file
-BinaryTree.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/BinaryTree.cpp.i
-.PHONY : BinaryTree.cpp.i
-
-BinaryTree.s: BinaryTree.cpp.s
-
-.PHONY : BinaryTree.s
-
-# target to generate assembly for a file
-BinaryTree.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/BinaryTree.cpp.s
-.PHONY : BinaryTree.cpp.s
-
-UnionFind.obj: UnionFind.cpp.obj
-
-.PHONY : UnionFind.obj
+.PHONY : RabbitNums/RabbitNums.obj
 
 # target to build an object file
-UnionFind.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/UnionFind.cpp.obj
-.PHONY : UnionFind.cpp.obj
+RabbitNums/RabbitNums.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj
+.PHONY : RabbitNums/RabbitNums.cpp.obj
 
-UnionFind.i: UnionFind.cpp.i
+RabbitNums/RabbitNums.i: RabbitNums/RabbitNums.cpp.i
 
-.PHONY : UnionFind.i
-
-# target to preprocess a source file
-UnionFind.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/UnionFind.cpp.i
-.PHONY : UnionFind.cpp.i
-
-UnionFind.s: UnionFind.cpp.s
-
-.PHONY : UnionFind.s
-
-# target to generate assembly for a file
-UnionFind.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/UnionFind.cpp.s
-.PHONY : UnionFind.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
+.PHONY : RabbitNums/RabbitNums.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+RabbitNums/RabbitNums.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.i
+.PHONY : RabbitNums/RabbitNums.cpp.i
 
-main.s: main.cpp.s
+RabbitNums/RabbitNums.s: RabbitNums/RabbitNums.cpp.s
 
-.PHONY : main.s
+.PHONY : RabbitNums/RabbitNums.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+RabbitNums/RabbitNums.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.s
+.PHONY : RabbitNums/RabbitNums.cpp.s
 
 # Help Target
 help:
@@ -209,18 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... untitled3
 	@echo ... edit_cache
-	@echo ... untitled
 	@echo ... rebuild_cache
-	@echo ... BinaryTree.obj
-	@echo ... BinaryTree.i
-	@echo ... BinaryTree.s
-	@echo ... UnionFind.obj
-	@echo ... UnionFind.i
-	@echo ... UnionFind.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... RabbitNums/RabbitNums.obj
+	@echo ... RabbitNums/RabbitNums.i
+	@echo ... RabbitNums/RabbitNums.s
 .PHONY : help
 
 
