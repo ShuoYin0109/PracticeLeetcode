@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/gitRepo/Leedcode/RabbitNums/RabbitNums.cpp" "D:/gitRepo/Leedcode/cmake-build-debug/CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj"
+  "D:/gitRepo/Leedcode/LearnDP/LearnDP.cpp" "D:/gitRepo/Leedcode/cmake-build-debug/CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

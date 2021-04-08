@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/gitRepo/Leedcode/RabbitNums/RabbitNums.cpp
+D:/gitRepo/Leedcode/LearnDP/LearnDP.cpp
 iostream
 -
 vector
+-
+string
+-
+algorithm
 -
 

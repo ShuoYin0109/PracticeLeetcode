@@ -122,32 +122,32 @@ untitled3/fast:
 	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/build
 .PHONY : untitled3/fast
 
-RabbitNums/RabbitNums.obj: RabbitNums/RabbitNums.cpp.obj
+LearnDP/LearnDP.obj: LearnDP/LearnDP.cpp.obj
 
-.PHONY : RabbitNums/RabbitNums.obj
+.PHONY : LearnDP/LearnDP.obj
 
 # target to build an object file
-RabbitNums/RabbitNums.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj
-.PHONY : RabbitNums/RabbitNums.cpp.obj
+LearnDP/LearnDP.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj
+.PHONY : LearnDP/LearnDP.cpp.obj
 
-RabbitNums/RabbitNums.i: RabbitNums/RabbitNums.cpp.i
+LearnDP/LearnDP.i: LearnDP/LearnDP.cpp.i
 
-.PHONY : RabbitNums/RabbitNums.i
+.PHONY : LearnDP/LearnDP.i
 
 # target to preprocess a source file
-RabbitNums/RabbitNums.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.i
-.PHONY : RabbitNums/RabbitNums.cpp.i
+LearnDP/LearnDP.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.i
+.PHONY : LearnDP/LearnDP.cpp.i
 
-RabbitNums/RabbitNums.s: RabbitNums/RabbitNums.cpp.s
+LearnDP/LearnDP.s: LearnDP/LearnDP.cpp.s
 
-.PHONY : RabbitNums/RabbitNums.s
+.PHONY : LearnDP/LearnDP.s
 
 # target to generate assembly for a file
-RabbitNums/RabbitNums.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.s
-.PHONY : RabbitNums/RabbitNums.cpp.s
+LearnDP/LearnDP.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.s
+.PHONY : LearnDP/LearnDP.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... untitled3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... RabbitNums/RabbitNums.obj
-	@echo ... RabbitNums/RabbitNums.i
-	@echo ... RabbitNums/RabbitNums.s
+	@echo ... LearnDP/LearnDP.obj
+	@echo ... LearnDP/LearnDP.i
+	@echo ... LearnDP/LearnDP.s
 .PHONY : help
 
 

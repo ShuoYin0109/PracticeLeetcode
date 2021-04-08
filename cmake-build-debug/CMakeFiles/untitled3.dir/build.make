@@ -56,27 +56,27 @@ include CMakeFiles/untitled3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled3.dir/flags.make
 
-CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj: CMakeFiles/untitled3.dir/flags.make
-CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj: ../RabbitNums/RabbitNums.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\gitRepo\Leedcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj"
-	D:\SoftwareInstalled\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled3.dir\RabbitNums\RabbitNums.cpp.obj -c D:\gitRepo\Leedcode\RabbitNums\RabbitNums.cpp
+CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj: CMakeFiles/untitled3.dir/flags.make
+CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj: ../LearnDP/LearnDP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\gitRepo\Leedcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj"
+	D:\SoftwareInstalled\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled3.dir\LearnDP\LearnDP.cpp.obj -c D:\gitRepo\Leedcode\LearnDP\LearnDP.cpp
 
-CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.i"
-	D:\SoftwareInstalled\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\gitRepo\Leedcode\RabbitNums\RabbitNums.cpp > CMakeFiles\untitled3.dir\RabbitNums\RabbitNums.cpp.i
+CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.i"
+	D:\SoftwareInstalled\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\gitRepo\Leedcode\LearnDP\LearnDP.cpp > CMakeFiles\untitled3.dir\LearnDP\LearnDP.cpp.i
 
-CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.s"
-	D:\SoftwareInstalled\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\gitRepo\Leedcode\RabbitNums\RabbitNums.cpp -o CMakeFiles\untitled3.dir\RabbitNums\RabbitNums.cpp.s
+CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.s"
+	D:\SoftwareInstalled\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\gitRepo\Leedcode\LearnDP\LearnDP.cpp -o CMakeFiles\untitled3.dir\LearnDP\LearnDP.cpp.s
 
 # Object files for target untitled3
 untitled3_OBJECTS = \
-"CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj"
+"CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj"
 
 # External object files for target untitled3
 untitled3_EXTERNAL_OBJECTS =
 
-untitled3.exe: CMakeFiles/untitled3.dir/RabbitNums/RabbitNums.cpp.obj
+untitled3.exe: CMakeFiles/untitled3.dir/LearnDP/LearnDP.cpp.obj
 untitled3.exe: CMakeFiles/untitled3.dir/build.make
 untitled3.exe: CMakeFiles/untitled3.dir/linklibs.rsp
 untitled3.exe: CMakeFiles/untitled3.dir/objects1.rsp
